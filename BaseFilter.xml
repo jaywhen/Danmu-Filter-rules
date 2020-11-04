@@ -1,0 +1,40 @@
+<filters>
+    <!-- 
+        @Author jaywhen
+        @Github https://github/jaywhen.com
+        @Rules 
+            正则: ["分类"]|"规则"
+        @Description(BaseFilter.xml):
+        包含在观看视频时弹幕中令我个人感到不适、厌烦的词汇、屏蔽的用户
+     -->
+    <item enabled="true">r=[倍速]|建议([倍速]|(0.5|0.75|1.5|2.0|2)倍速)食用</item>
+    <item enabled="true">r=[死前宣言]|(啊.*)我死了|(A|a)(W|w)(S|s)(L|l)</item>
+    <item enabled="true">r=[脏话]|脑残|人渣|有病|[老劳][资資]|[撕怂]B|欠(打|日|操|艹|抽|收拾)</item>
+    <item enabled="true">r=[恶语中伤]|(水平|画质|(B|b)(G|g)(M|m)|配乐|(C|c)(V|v)|声优)(垃圾|辣鸡)</item>
+    
+    
+    <!-- 屏蔽的用户 -->>
+    <item enabled="true">u=eec4fbd0</item>
+    <item enabled="true">u=e739bb7b</item>
+    <item enabled="true">u=df8abc31</item>
+    <item enabled="true">u=8fa4ad8b</item>
+    <item enabled="true">u=f90f7eb2</item>
+    <item enabled="true">u=be1f6e4a</item>
+    <item enabled="true">u=100d937b</item>
+    <item enabled="true">u=9f94fadc</item>
+    <item enabled="true">u=9005b004</item>
+    <item enabled="true">u=768a2cf5</item>
+    <item enabled="true">u=6289222c</item>
+    <item enabled="true">u=f45d692c</item>
+    <item enabled="true">u=49abc805</item>
+    <item enabled="true">u=c3a36ef5</item>
+    <item enabled="true">u=199a547d</item>
+    <item enabled="true">u=944142f7</item>
+    <item enabled="true">u=4c555a21</item>
+    <item enabled="true">u=2859cbb5</item>
+    <item enabled="true">u=18b58c48</item>
+    <item enabled="true">u=8628c92</item>
+    <item enabled="true">u=3900eb2c</item>
+    <item enabled="true">u=4afa8f84</item>
+
+</filters>
